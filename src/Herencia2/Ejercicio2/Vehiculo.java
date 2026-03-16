@@ -9,6 +9,7 @@ public abstract class Vehiculo implements Movimiento{
         this.tipoCombustible = tipoCombustible;
     }
 
+    //Método concreto
     public void mostrarInfo(){
         System.out.println("Marca: " + marca);
         System.out.println("Tipo de combustible: " + tipoCombustible);

@@ -8,6 +8,8 @@ import Herencia2.Agregacion.Profesor;
 import Herencia2.Composicion.Auto;
 import Herencia2.Ejercicio.Autor;
 import Herencia2.Ejercicio.Biblioteca;
+import Herencia2.Ejercicio2.Bicicleta;
+import Herencia2.Ejercicio2.Motocicleta;
 import Herencia2.Herencia.Desarrollador;
 import Herencia2.Herencia.Empleado;
 import Herencia2.Herencia.Gerente;
@@ -49,5 +51,10 @@ void main() {
     System.out.println("Área del triángulo: " + triangulo1.calcularArea());
      */
 
+    Motocicleta motocicleta1 = new Motocicleta("Yamaha");
+    motocicleta1.encender();
 
+    Bicicleta bicicleta1 = new Bicicleta("GW");
+    bicicleta1.encender();
+    bicicleta1.moverse();
 }
