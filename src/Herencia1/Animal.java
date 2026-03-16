@@ -1,3 +1,5 @@
+package Herencia1;
+
 public abstract class Animal {
     //Atributos de la clase
     public String name;

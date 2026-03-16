@@ -1,4 +1,6 @@
-public class Cat extends Animal{
+package Herencia1;
+
+public class Cat extends Animal {
     //Atributo propio
     private boolean isNasty;
 

@@ -1,4 +1,6 @@
-public class Dog extends Animal{
+package Herencia1;
+
+public class Dog extends Animal {
     private String bestFriend;
 
     public Dog(String name, boolean sex, int edad, double weight, String color, String bestFriend) {
