@@ -25,6 +25,7 @@ void main() {
     Biblioteca biblioteca1 = new Biblioteca("UCC");
     System.out.println(biblioteca1.toString());*/
 
+    /*
     Empleado empleado1 = new Empleado("Adriana");
     System.out.println(empleado1);
 
@@ -34,5 +35,7 @@ void main() {
 
     Desarrollador desarrollador1 = new Desarrollador("Carla", gerente1);
     System.out.println(desarrollador1.toString());
+     */
+
 
 }
