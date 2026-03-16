@@ -1,5 +1,8 @@
 import Herencia1.Cat;
 import Herencia1.Dog;
+import Herencia2.Abstraccion.Cuadrado;
+import Herencia2.Abstraccion.Rectangulo;
+import Herencia2.Abstraccion.Triangulo;
 import Herencia2.Agregacion.Curso;
 import Herencia2.Agregacion.Profesor;
 import Herencia2.Composicion.Auto;
@@ -37,5 +40,11 @@ void main() {
     System.out.println(desarrollador1.toString());
      */
 
+    Cuadrado cuadrado1 = new Cuadrado(10);
+    Rectangulo rectangulo1 = new Rectangulo(10, 5);
+    Triangulo triangulo1 = new Triangulo(20, 5);
 
+    System.out.println("Área del cuadrado: " + cuadrado1.calcularArea());
+    System.out.println("Área del rectángulo: " + rectangulo1.calcularArea());
+    System.out.println("Área del triángulo: " + triangulo1.calcularArea());
 }

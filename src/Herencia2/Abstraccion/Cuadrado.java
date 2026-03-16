@@ -10,7 +10,7 @@ public class Cuadrado extends Figura{
     //Polimorfismo
     //Sobreescribir
     @Override
-    double calcularArea() {
+    public double calcularArea() {
         return lado*lado;
     }
 }
