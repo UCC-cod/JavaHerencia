@@ -39,7 +39,7 @@ void main() {
     Desarrollador desarrollador1 = new Desarrollador("Carla", gerente1);
     System.out.println(desarrollador1.toString());
      */
-
+    /*
     Cuadrado cuadrado1 = new Cuadrado(10);
     Rectangulo rectangulo1 = new Rectangulo(10, 5);
     Triangulo triangulo1 = new Triangulo(20, 5);
@@ -47,4 +47,7 @@ void main() {
     System.out.println("Área del cuadrado: " + cuadrado1.calcularArea());
     System.out.println("Área del rectángulo: " + rectangulo1.calcularArea());
     System.out.println("Área del triángulo: " + triangulo1.calcularArea());
+     */
+
+
 }
