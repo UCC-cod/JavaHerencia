@@ -51,10 +51,63 @@ void main() {
     System.out.println("Área del triángulo: " + triangulo1.calcularArea());
      */
 
+    /*
     Motocicleta motocicleta1 = new Motocicleta("Yamaha");
     motocicleta1.encender();
 
     Bicicleta bicicleta1 = new Bicicleta("GW");
     bicicleta1.encender();
     bicicleta1.moverse();
+
+     */
+
+    //Colecciones
+
+    //ArrayList -> Listas ordenadas
+    ArrayList<String> nombres = new ArrayList<>();
+    nombres.add("Adriana");
+    nombres.add("Juan");
+    nombres.add("Emma");
+    System.out.println("Nombres: " +nombres);
+
+    Motocicleta moto1 = new Motocicleta("Yamaha");
+    Motocicleta moto2 = new Motocicleta("Auteco");
+    ArrayList<Motocicleta> motos = new ArrayList<>();
+    motos.add(moto1);
+    motos.add(moto2);
+    System.out.println(motos);
+
+    //Set -> Lista sin valores duplicados
+    Set<Integer> numeros = new HashSet<>();
+    numeros.add(1);
+    numeros.add(2);
+    numeros.add(1);
+    numeros.add(1);
+    numeros.add(1);
+    numeros.add(1);
+
+    System.out.println(numeros);
+
+    Set<String> apellidos = new HashSet<>();
+    apellidos.add("Rojas");
+    apellidos.add("Jiménez");
+    apellidos.add("Rodríguez");
+    apellidos.add("Rojas");
+
+    System.out.println(apellidos);
+
+    //HashMap tienen una estructura en pares-> llave:valor
+    HashMap<String, Integer> notas = new HashMap<>();
+    notas.put("Carla", 4);
+    notas.put("Keisy", 5);
+    notas.put("Emma", 2);
+    System.out.println(notas);
+
+    /*
+    //Ejercicio:
+    Crear un sistema de gestión de estudiantes
+    ->Lista de nombres (ArrayList)
+    ->Set de DNI únicos (HashSet)
+    -> Mapa de nombres con la edad (HashMap)
+    */
 }

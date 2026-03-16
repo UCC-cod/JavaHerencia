@@ -14,4 +14,6 @@ public class Motocicleta extends Vehiculo{
     public void moverse() {
         System.out.println("La motocicleta va por la carretera");
     }
+
+
 }

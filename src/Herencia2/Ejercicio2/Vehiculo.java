@@ -16,4 +16,12 @@ public abstract class Vehiculo implements Movimiento{
     }
 
     public abstract void encender();
+
+    @Override
+    public String toString() {
+        return "Vehiculo{" +
+                "marca='" + marca + '\'' +
+                ", tipoCombustible='" + tipoCombustible + '\'' +
+                '}';
+    }
 }
