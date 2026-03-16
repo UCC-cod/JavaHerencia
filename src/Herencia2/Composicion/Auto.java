@@ -8,6 +8,9 @@ public class Auto {
         motor = new Motor("Motor de Gasolina");
     }
 
+    //Estructura de un método en java
+    //visibilidad - retorno - nombre
+    //Paréntesis - recibe o no parámetros
     public void mostrarMotor(){
         System.out.println("Motor: " + motor.getTipo());
     }
