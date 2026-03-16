@@ -14,6 +14,8 @@ import Herencia2.Herencia.Desarrollador;
 import Herencia2.Herencia.Empleado;
 import Herencia2.Herencia.Gerente;
 
+import java.sql.SQLOutput;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 void main() {
@@ -61,6 +63,7 @@ void main() {
 
      */
 
+    /*
     //Colecciones
 
     //ArrayList -> Listas ordenadas
@@ -110,4 +113,19 @@ void main() {
     ->Set de DNI únicos (HashSet)
     -> Mapa de nombres con la edad (HashMap)
     */
+
+    //Manejo de excepciones en tiempo de ejecución
+
+    try{
+        //Ejecutar el código que puede fallar
+        int resultado = 10/0;
+        System.out.println("Resultado: " + resultado);
+
+    }catch (ArithmeticException error){
+        //Manejo del error
+        System.out.println("El error en la operación es: " + error.getMessage());
+    }finally{
+        System.out.println("Este bloque siempre se ejecuta");
+        System.out.println("Aquí terminó la división");
+    }
 }
